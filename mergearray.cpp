@@ -12,6 +12,7 @@ public:
                 nums1[k--] = nums1[i--];
             }
         }
+        //copy the rest of array2
         for(; j>=0; j--, k--){
             nums1[k]=nums2[j];
         }
